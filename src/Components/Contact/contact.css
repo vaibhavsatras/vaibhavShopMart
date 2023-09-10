@@ -1,0 +1,36 @@
+.contact-us .contact-info
+{
+    margin-bottom: 20px;
+    display: inline-block;
+    
+}
+.contact-us .contact-info a
+{
+    color: black;
+    font-size: 17px;
+}
+.contact-us .contact-info a:hover
+{
+    color: red;
+    
+}
+
+.contact-us .form-info
+{
+    margin-bottom: 20px;
+}
+.contact-us .form-info textarea
+{
+    resize: none;
+
+}
+textarea:focus
+{
+    border: none;
+    outline: none;
+}
+.form-info .btn:hover
+{
+    background-color: transparent;
+    color: red;
+}

@@ -1,0 +1,88 @@
+
+.navbar .heading
+{ 
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    text-shadow: -2px -5px 7px gray;
+}
+.navbar .navbar-nav .nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.navbar .navbar-nav .nav-item a {
+    font-size: 18px;
+    /* color: red; */
+    font-weight: 600;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+    color: red;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar .navbar-toggler {
+    height: unset;
+    width: unset;
+}
+.navbar .navbar-collapse ul li
+{
+    position: relative;
+}
+.navbar .navbar-collapse ul li:nth-child(2):before
+{
+    content: '';
+    height: 2px;
+    width: 0px;
+    position: absolute;
+    background-color: red;
+    left: 18px;
+    top: 38px;
+    transition: 0.5s;
+}
+.navbar .navbar-collapse:hover ul li:hover:nth-child(2):before
+{
+    width: 60px;
+}
+
+.navbar .navbar-collapse ul li:nth-child(1):before
+{
+    content: '';
+    height: 2px;
+    width: 0px;
+    position: absolute;
+    background-color: red;
+    left: 47px;
+    top: 38px;
+    transition: 0.5s;
+}
+.navbar .navbar-collapse ul li:hover:nth-child(1)::before
+{
+    width: 55px;
+}
+
+.navbar .navbar-collapse ul li:nth-child(3)::before,
+.navbar .navbar-collapse ul li:nth-child(4)::before,
+.navbar .navbar-collapse ul li:nth-child(5)::before
+{
+    content: '';
+    height: 2px;
+    width: 0px;
+    position: absolute;
+    background-color: red;
+    left: 20px;
+    top: 38px;
+    transition: 0.5s;
+}
+.navbar .navbar-collapse ul li:hover:nth-child(3)::before,
+.navbar .navbar-collapse ul li:hover:nth-child(4)::before,
+.navbar .navbar-collapse ul li:hover:nth-child(5)::before
+{
+    width: 68px;
+}

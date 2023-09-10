@@ -1,0 +1,88 @@
+.testimonials
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner .testi-container .testi-image img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+.testimonials .banner
+{
+    box-shadow: 20px 10px 20px gray, -10px 0 10px gray ;
+    border-top-left-radius: 0;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0;
+    background-color: whitesmoke;
+}
+.testi-content h4
+{
+    text-decoration: underline;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.testi-content p
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: center;
+    color: rgb(141, 105, 105);
+    margin-bottom: 50px;
+}
+
+.svgicon-1
+{
+    left: 110px;
+    top: 82px;
+    
+}
+.svgicon2-1
+{
+    left: 985px;
+    top: 175px;
+}
+
+.svgicon-2
+{
+    left: 125px;
+    top: 85px;
+    
+}
+.svgicon2-2
+{
+    left: 743px;
+    top: 175px;
+}
+.svgicon-3
+{
+    left: 168px;
+    top: 85px;
+    
+}
+.svgicon2-3
+{
+    left: 860px;
+    top: 174px;
+}
+
+.testi-content .paragraph
+{
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+.testi-content h3
+{
+    font-size: 15px;
+    margin-top: 0;
+    color: gray;
+    margin-bottom: 10px;
+}

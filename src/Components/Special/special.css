@@ -1,0 +1,74 @@
+.spaecial-container
+{
+    padding: 10px 10px;
+    direction: ltr;
+    background-color:whitesmoke
+}
+.spaecial-container .special-offer h5
+{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 30px;
+    text-transform: uppercase;
+    
+}
+.spaecial-container .special-offer p
+{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+    
+    
+}
+.special-offer .counter-container
+{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 30px;
+
+}
+.special-offer .counter-container li
+{
+    display: inline-block;
+    padding: 5px 20px;
+    margin-right: 6px;
+    background-color: white;
+    text-align: center;
+    border-radius: 100%;
+    font-weight: 500;
+    width: 10%;
+    
+}
+.special-offer .counter-price
+{
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.special-offer .counter-price del
+{
+    font-weight: 300;
+    color: gray;
+}
+
+
+
+.spaecial-container .speceial-offer-img .special-sale
+{
+    position: absolute;
+    top: 8px;
+    left: 160px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+}
+.spaecial-container .speceial-offer-img .special-image img
+{
+    height: 500px;
+    width: 300px;
+    margin-left: 60px;
+    box-shadow: 10px -10px 15px rgba(0, 0,0, 0.5);
+    object-fit: cover;
+}
+

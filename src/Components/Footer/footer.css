@@ -1,0 +1,51 @@
+.footer1
+{
+    margin-top: 20px;
+    background-color: #2e354a;
+    padding-top: 10px;
+    color: whitesmoke;
+    
+}
+.footer1 .footer-content
+{
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.footer1 .footer-content .footer-text h3
+{
+    font-size: 17px;
+    /* margin-top: 15px; */
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    
+}
+
+.footer1 .footer-content .footer-list ul
+{
+    float: right;
+    /* margin-top: 15px; */
+}
+.footer1 .footer-content .footer-list ul li
+{
+    padding-left: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    
+}
+.fa-brands
+{
+    color: white;
+    transition: 0.5s;
+}
+.fa-brands:hover
+{
+    color: red;
+    transform: translate(5px, 5px);
+}
+
+
+
+
+

@@ -1,0 +1,87 @@
+
+.banner .banner-1,
+.banner .banner-2,
+.banner .banner-3 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% center;
+    min-height: 500px;
+    
+}
+.banner .banner-2
+{
+    background-position: top right!important; 
+}
+.banner .banner-3
+{
+    background-position: top center !important;
+}
+
+.banner .banner-1 {
+    background-image: url('C:\Users\ADMIN\Desktop\Reactproject2\shop-mart\src\assets\images\img1.jpeg');
+}
+
+.banner .banner-2 {
+    background-image: url('C:\Users\ADMIN\Desktop\Reactproject2\shop-mart\src\assets\images\img2-1.jpg');
+}
+
+.banner .banner-3 {
+    background-image: url('C:\Users\ADMIN\Desktop\Reactproject2\shop-mart\src\assets\images\img3-2.jpg');
+}
+
+.banner-1 .banner-text, 
+.banner-2 .banner-text{
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-110%, -50%);
+    font-family: 'Times New Roman', Times, serif;
+    color: black
+}
+.banner-3 .banner-text
+{
+    position: absolute;
+    top: 50%;
+    right: -18%;
+    transform: translate(-110%, -50%);
+    font-family: 'Times New Roman', Times, serif;
+    color: black
+}
+.home-banner .banner-text h1 {
+    font-size: 50px;
+    font-weight: 400;
+
+}
+.home-banner .banner-text .btn
+{
+    margin-left: 20px;
+
+}
+
+.banner ul li {
+    list-style: none;
+}
+
+@media only screen and (max-width:724px)
+{
+    .banner .home-banner .banner-text {
+        position: absolute;
+        top: 50%;
+        left: 80%;
+
+    }  
+}
+
+@media only screen and (max-width:820px) {
+
+     .banner .home-banner .banner-text {
+            position: absolute;
+            top: 60%;
+            left: 70%;
+            text-align: center;
+            padding: 20px;
+
+        }
+    }
+    

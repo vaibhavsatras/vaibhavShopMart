@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/vaibhavShopMart/static/css/main.5f5681ae.css",
+    "main.js": "/vaibhavShopMart/static/js/main.21324ffa.js",
+    "static/media/img3.jpeg": "/vaibhavShopMart/static/media/img3.dbf54b0fc5ce881866d4.jpeg",
+    "static/media/img3-2.jpg": "/vaibhavShopMart/static/media/img3-2.f0833c7b77808867eaf3.jpg",
+    "static/media/img2-1.jpg": "/vaibhavShopMart/static/media/img2-1.2a33f5bbc14a4a73844b.jpg",
+    "static/media/img1.jpeg": "/vaibhavShopMart/static/media/img1.0e436024cbbe5cc8124a.jpeg",
+    "static/media/offer3.jpg": "/vaibhavShopMart/static/media/offer3.7b3ea18880c79b0e5d81.jpg",
+    "index.html": "/vaibhavShopMart/index.html",
+    "main.5f5681ae.css.map": "/vaibhavShopMart/static/css/main.5f5681ae.css.map",
+    "main.21324ffa.js.map": "/vaibhavShopMart/static/js/main.21324ffa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f5681ae.css",
+    "static/js/main.21324ffa.js"
+  ]
+}
